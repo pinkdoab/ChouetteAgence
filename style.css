@@ -123,7 +123,7 @@ a:hover {
 
 .bloc-bg-texture::before {
     content: "";
-    background-size: 2px 2px;
+    background-size: 300px 300px;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -133,7 +133,7 @@ a:hover {
 
 .texture-paper::before {
     background: url("img/texture-paper.png");
-    background-size: 280px 280px;
+    background-size: 300px 300px;
 }
 
 .b-parallax {
@@ -873,7 +873,12 @@ h4 {
     }  
 }
 .bg-presentation {
-    background-image: url("img/image-de-presentationbis.jpg");
+    background-image: url("img/image-de-presentation.jpg");
+}
+@media (max-width: 767px) {
+    .bg-presentation {
+        background-image: url("img/la-chouette-agence-banniereter.jpg");
+    }  
 }
 
 @media (max-width: 1024px) {
