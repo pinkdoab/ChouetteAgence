@@ -5,32 +5,33 @@
     <meta name="description" content="La chouette agence est une agence de web design de Lyon qui aide les entreprises à devenir attractives et visibles sur internet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	
-	<meta name="robots" content="index,follow">
-	<meta name="googlebot" content="index,follow">
+	<meta name="robots" content="index, nofollow">
+	<meta name="googlebot" content="index, nofollow">
 
 	<meta name="keywords" content="design web,agence design lyon, agence design, web design, design graphique, creation web, creation digitale, illustration web, entreprise Lyonnaise, journal local web, photographe web">
 
     <title>La chouette agence</title>
 	
-	<link rel="canonical" href="https://pinkdoab.github.io/chouette-opti/">
+	<link rel="canonical" href="https://pinkdoab.github.io/chouette-opti2/">
 
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
-    <link rel="shortcut icon" type="image/png" href="favicon.jpg">    
+	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
+
 </head>
 
 <!-- Principal conteneur -->
 <body class="page-container">
 <!-- header -->
-<header class="bloc bgc-white l-bloc ">
+<header class="bloc bgc-white l-bloc " id="bloc-0">
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="https://pinkdoab.github.io/chouette-opti/page2.html"><img src="img/la-chouette-agence.png" alt="logo de la société La chouette agence" height="40" /></a>
+				<a class="navbar-brand" href="#bloc-5-cta"><img src="img/la-chouette-agence.png" alt="logo de la société La chouette agence" height="40" /></a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-					<span aria-label="Toggle navigation" class="sr-only"></span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
 			</div>
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
@@ -39,7 +40,7 @@
 						<a href="#bloc-4-portfolio">Réalisations</a>
 					</li>
 					<li>
-						<a href="#bloc-5-cta">Contact</a>
+						<a href="#bloc-6">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -55,9 +56,9 @@
 			<div class="row tight-width-whitespace">
 				<div class="col-sm-12">
 					<img src="img/logo.png" class="center-block image-resize-mode" width="100" alt="logo de la société La chouette agence au centre de la page" />
-					<h1 class="text-center hero-bloc-text tc-white ">La chouette agence, une agence de web design de Lyon</h1>
+					<h1 class="text-center hero-bloc-text tc-white ">La chouette agence,<br>devenez attractive et visible sur internet</h1>
 					<div class="text-center">
-						<a href="https://pinkdoab.github.io/chouette-opti/page2.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
+						<a href="#bloc-6" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
 					</div>
 				</div>
 			</div>
@@ -159,51 +160,55 @@
 
 	<!-- bloc-5-cta -->
 	<section class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta">
-		<div class="container bloc-lg">
+		<div class="container bloc-lg">			
 			<div class="row">
 				<h2 class="mg-md text-center tc-white">Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe !</h2>
+
 			</div>
 			<!-- bloc-6 -->
-	<section class="bgc-atomic-tangerine bloc-bg-texture texture-paper" id="bloc-6">
-		<div class="container bloc-lg">
-			<div class="row">
-				<div class="col-sm-12">
-					<h1 class="text-center hero-bloc-text tc-white-page2">Parlons web design !</h1>
-					<h2 class="text-center mg-lg tc-white-page2 tight-width-whitespace">Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>Parlez-nous de votre projet en complétant le formulaire ci-dessous.</h2>
+			<section class="bgc-atomic-tangerine bloc-bg-texture " id="bloc-6">
+				<div class="container bloc-lg">
+					<div class="row">
+						<div class="col-sm-12">
+							<h2 class="text-center hero-bloc-text tc-white-page2">Parlons web design !</h1>
+							<h3 class="text-center mg-lg tc-white-page2 tight-width-whitespace">Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>Parlez-nous de votre projet en complétant le formulaire ci-dessous.</h2>
+						</div>
+					</div>
 				</div>
-			</div>
-		</div>
-	</section>
-	<!-- bloc-6 END -->
+			</section>
+			<!-- bloc-6 END -->
 
-	<!-- bloc-7 -->
-	<section class="bloc bgc-white l-bloc" id="bloc-7">
-		<div class=" bloc-lg">
-			<div class="row">
-				<div class="col-sm-12">
-					<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
-						<div class="form-group">
-							<label class="largeur-label">Nom<input id="name" class="form-control" required /></label>
+			<!-- bloc-7 -->
+			<section class="bloc bgc-white l-bloc" id="bloc-7">
+				<div class=" bloc-lg">
+					<div class="row">
+						<div class="col-sm-12">
+							<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+								<div class="form-group">
+									<label class="largeur-label">Nom<input id="name" class="form-control" required /></label>
+								</div>
+								<div class="form-group">
+									<label class="largeur-label">Adresse email<input id="email" class="form-control" type="email" required /></label>
+								</div>
+								<div class="form-group">
+									<label class="largeur-label">Comment nous avez-vous connu ?<input class="form-control" type="email" required id="input_504" /></label>
+								</div>
+								<div class="form-group">
+									<label class="largeur-label">Brief de votre projet (Ajoutez autant de détails que nécessaire)<br><textarea id="message" class="form-control" rows="4" cols="50" required></textarea></label>
+								</div> 
+								<button aria-label="bouton submit" class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">Envoyer</button>
+							</form>
 						</div>
-						<div class="form-group">
-							<label class="largeur-label">Adresse email<input id="email" class="form-control" type="email" required /></label>
+						<div class="col-sm-12">
+							<p class="adresse-centrer">contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br></p>
+							<div class="col-sm-12 text-center">
+								<a href="#bloc-0" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Accueil</a>
+							</div>
 						</div>
-						<div class="form-group">
-							<label class="largeur-label">Comment nous avez-vous connu ?<input class="form-control" type="email" required id="input_504" /></label>
-						</div>
-						<div class="form-group">
-							<label class="largeur-label">Brief de votre projet (Ajoutez autant de détails que nécessaire)<br><textarea id="message" class="form-control" rows="4" cols="50" required></textarea></label>
-						</div> 
-						<button aria-label="bouton submit" class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">Envoyer</button>
-					</form>
+					</div>
 				</div>
-				<div class="col-sm-12">
-					<p class="adresse-centrer">contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br></p>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- bloc-7 END -->
+			</section>
+		<!-- bloc-7 END -->
 		</div>
 	</section>
 	
@@ -257,8 +262,7 @@
 
 <!-- Principal conteneur END -->
 
-<!--script src="./js/jquery-2.1.0.js"></script>
+<script src="./js/jquery-2.1.0.js"></script>
 <script src="./js/bootstrap.js" async></script>
-<script src="./js/blocs.js" async></script-->
 </body>
 </html>
