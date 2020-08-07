@@ -2983,6 +2983,7 @@ table th[class*=col-] {
 .table>thead>tr>td.warning,
 .table>thead>tr>th.warning {
     background-color: #fcf8e3
+    
 }
 
 .table-hover>tbody>tr.warning:hover>td,
